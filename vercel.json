@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/icp1/(.*)", "destination": "/icp1/index.html" },
+    { "source": "/icp1", "destination": "/icp1/index.html" }
+  ]
+}
