@@ -6,6 +6,9 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       base: '/icp1',
+      build: {
+        outDir: 'dist/icp1',
+      },
       server: {
         port: 3000,
         host: '0.0.0.0',
