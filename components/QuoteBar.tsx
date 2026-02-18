@@ -22,28 +22,28 @@ const QuoteBar: React.FC = () => {
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-16">
             {/* McKinsey & Company */}
             <img
-              src={`${import.meta.env.BASE_URL}images/mckinsey.png`}
+              src="/images/mckinsey.png"
               alt="McKinsey & Company"
               className="h-10 md:h-12 w-auto object-contain"
             />
 
             {/* RELEX */}
             <img
-              src={`${import.meta.env.BASE_URL}images/relex.png`}
+              src="/images/relex.png"
               alt="RELEX"
               className="h-6 md:h-7 w-auto object-contain"
             />
 
             {/* INSEAD */}
             <img
-              src={`${import.meta.env.BASE_URL}images/Insead.png`}
+              src="/images/Insead.png"
               alt="INSEAD"
               className="h-7 md:h-8 w-auto object-contain"
             />
 
             {/* Aalto University */}
             <img
-              src={`${import.meta.env.BASE_URL}images/aalto.png`}
+              src="/images/aalto.png"
               alt="Aalto University"
               className="h-8 md:h-10 w-auto object-contain"
             />
