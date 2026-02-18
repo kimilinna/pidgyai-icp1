@@ -260,7 +260,7 @@ const translations = {
       },
       pidgy: {
         title: 'Pidgyai',
-        beta: 'Paikkoja jäljelle 12 beta-yritykselle',
+        beta: 'Paikkoja jäljelle 7 beta-yritykselle',
         price: '499',
         originalPrice: '699',
         period: '/kk (ei sisällä alv.)',
