@@ -1,6 +1,8 @@
 {
   "rewrites": [
     { "source": "/icp1", "destination": "/index.html" },
-    { "source": "/icp1/", "destination": "/index.html" }
+    { "source": "/icp1/", "destination": "/index.html" },
+    { "source": "/calculator", "destination": "https://pidgy-ai-tam-calculator.vercel.app" },
+    { "source": "/calculator/:path*", "destination": "https://pidgy-ai-tam-calculator.vercel.app/:path*" }
   ]
 }
